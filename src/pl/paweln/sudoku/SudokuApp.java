@@ -1,8 +1,9 @@
 package pl.paweln.sudoku;
 
 import pl.paweln.sudoku.loaders.SudokuFileReader;
+
 /**
- *
+ * Main class to start sudoku application
  */
 public class SudokuApp {
 
