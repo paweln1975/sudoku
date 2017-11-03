@@ -13,8 +13,8 @@ public class SudokuApp {
 	
 	
 	
-	private static void execute(String fileName) throws Exception {
-		Sudoku sudoku = new Sudoku(new SudokuFileReader(fileName));
+	private static void execute(String p_fileName) throws Exception {
+		Sudoku sudoku = new Sudoku(new SudokuFileReader(p_fileName));
 		System.out.println("\nSudoku loaded from file:\n" + sudoku);
 		
 		SudokuSolver solver = new SudokuSolver(sudoku);
