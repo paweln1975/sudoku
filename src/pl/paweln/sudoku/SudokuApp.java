@@ -4,6 +4,7 @@ import pl.paweln.sudoku.loaders.SudokuFileReader;
 
 /**
  * Main class to start sudoku application
+ * executes the sudoku solving
  */
 public class SudokuApp {
 
@@ -13,8 +14,8 @@ public class SudokuApp {
 	
 	
 	
-	private static void execute(String fileName) throws Exception {
-		Sudoku sudoku = new Sudoku(new SudokuFileReader("./res/" + fileName));
+	private static void execute(String p_fileName) throws Exception {
+		Sudoku sudoku = new Sudoku(new SudokuFileReader("./res/" + p_fileName));
 		System.out.println("\nSudoku loaded from file:\n" + sudoku);
 		
 		SudokuSolver solver = new SudokuSolver(sudoku);
