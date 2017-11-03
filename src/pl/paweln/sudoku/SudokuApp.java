@@ -4,7 +4,7 @@ import pl.paweln.sudoku.loaders.SudokuFileReader;
 
 /**
  * Main class to start sudoku application
- * executes the sudoku solving
+ * executes the sudoku solving algorithm
  */
 public class SudokuApp {
 
