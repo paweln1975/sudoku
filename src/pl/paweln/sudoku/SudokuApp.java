@@ -8,13 +8,13 @@ import pl.paweln.sudoku.loaders.SudokuFileReader;
 public class SudokuApp {
 
 	public static void main(String[] args) throws Exception {
-		execute("./res/medium2.txt");
+		execute("medium2.txt");
 	}
 	
 	
 	
 	private static void execute(String fileName) throws Exception {
-		Sudoku sudoku = new Sudoku(new SudokuFileReader(fileName));
+		Sudoku sudoku = new Sudoku(new SudokuFileReader("./res/" + fileName));
 		System.out.println("\nSudoku loaded from file:\n" + sudoku);
 		
 		SudokuSolver solver = new SudokuSolver(sudoku);
