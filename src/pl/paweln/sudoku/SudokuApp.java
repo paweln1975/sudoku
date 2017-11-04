@@ -3,8 +3,8 @@ package pl.paweln.sudoku;
 import pl.paweln.sudoku.loaders.SudokuFileReader;
 
 /**
- * Main class to start sudoku application
- * executes the sudoku solving
+ * Main class to start Sudoku application
+ * executes the sudoku solving algorithm
  */
 public class SudokuApp {
 
