@@ -5,6 +5,7 @@ import pl.paweln.sudoku.loaders.SudokuFileReader;
 /**
  * Main class to start Sudoku application
  * executes the sudoku solving algorithm
+ * This is temporary executable for the program before writing a GUI
  */
 public class SudokuApp {
 
